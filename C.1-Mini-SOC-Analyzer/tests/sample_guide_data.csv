@@ -1,0 +1,6 @@
+time,user,location,event,result
+02:14,student01,Unknown,login,failed
+02:16,student01,Unknown,password_reset,started
+08:10,student01,School,login,success
+23:45,student04,Unknown,login,failed
+23:46,student04,Unknown,login,failed

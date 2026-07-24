@@ -1,0 +1,4 @@
+time,user,location,event,result
+00:00,ivan,School,login,failed
+00:11,ivan,School,login,failed
+00:14,ivan,School,password_reset,started
