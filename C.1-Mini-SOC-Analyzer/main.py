@@ -116,6 +116,7 @@ def processRow(row):
             addOrUpgradeReason(user, "password reset after failed login")
 
 def main():
+    sys.stdin.reconfigure(encoding="utf-8-sig") # tolerates a UTF-8 BOM (e.g. from PowerShell's `>` redirection)
     csvChart = csv.DictReader(sys.stdin)
     for row in csvChart:
         processRow(row)
